@@ -1,0 +1,59 @@
+@media only screen and (min-width:750px )  {
+.hedooofhostle{
+color: rgb(246, 241, 221);
+ text-align: center; font-family: cursive; text-decoration: underline; margin-top: 34px;
+}
+
+.imgoluu{
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.phoyu{
+    height : 499px;
+    width: 899px;
+    border-bottom: 3px solid  rgb(246, 241, 221);
+    border-left: 1px solid  rgb(246, 241, 221) ;
+    border-right: 1px solid  rgb(246, 241, 221);
+    border-radius: 9px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.paruu{
+    color: rgb(246, 241, 221);
+    margin-right: 4vw;
+    margin-left: 4vw;
+    font-size: 19px;
+    text-align: center;
+}}
+@media only screen and (max-width:750px )  {
+.hedooofhostle{
+color: rgb(246, 241, 221);
+ text-align: center; font-family: cursive; text-decoration: underline; margin-top: 34px;
+ font-size: 9px;
+}
+
+.imgoluu{
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.phoyu{
+    height : auto;
+    width: 80vw;
+    border-bottom: 3px solid  rgb(246, 241, 221);
+    border-left: 1px solid  rgb(246, 241, 221) ;
+    border-right: 1px solid  rgb(246, 241, 221);
+    border-radius: 9px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.paruu{
+    color: rgb(246, 241, 221);
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size: 13px;
+    text-align: center;
+}}

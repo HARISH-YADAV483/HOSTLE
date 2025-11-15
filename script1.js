@@ -1,27 +1,4 @@
-//   var dib = document.getElementById("slideit")
-// if(dib.style.display == "none"){
-// function slidemenu() {
- 
 
-//   dib.style.display = "block"
-  
-// }
-// }
-// if(dib.style.display == "block"){
-// function slidemenu() {
- 
-
-//   dib.style.display = "none"
-  
-// }
-// }
-
-// function slidemenu() {
-//  var dib = document.getElementById("slideit")
-
-//   dib.style.display = "block"
-  
-// }
  const img = document.getElementById('toggleImage');
   const div = document.getElementById('toggleDiv');
 

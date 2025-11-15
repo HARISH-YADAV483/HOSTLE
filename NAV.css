@@ -1,5 +1,5 @@
 .nav{
-    background-color: #121212;
+    background-color: #04020e;
     border-bottom: 1px solid #E0E0E0;
     border-top:1px solid #E0E0E0 ;
     display: flex;
@@ -22,6 +22,9 @@
        
     }
 @media  only screen and (min-width : 750px){
+    .sidebar{
+        margin-top: 81px;
+    }
 .nav{margin-right: 2px;
     margin-left: 2px;
     height: 79px;
@@ -50,6 +53,9 @@ position: relative;
 left : 2px;
 }
 @media only screen and (max-width:750px )  {
+    .sidebar{
+        margin-top: 50px;
+    }
     .nav{
         height: 50px;
 margin-right: 2px;
