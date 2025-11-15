@@ -1,0 +1,40 @@
+body{
+    background-color: #121212;
+}
+.sidebar{
+    border-right: 0.25px solid #E0E0E0;
+}
+@media  only screen and (min-width : 750px){
+.rsidebar{
+      position: fixed; /* Fixes the div relative to the viewport */
+  top: 0;          /* Aligns the div to the top */
+  right: 0;         /* Fixes the div to the left side */
+  width: 100vw;    /* Set your desired fixed width */
+  height: 100vh;
+}
+.sidebar{
+      position: fixed; /* Fixes the div relative to the viewport */
+  top: 0;          /* Aligns the div to the top */
+  left: 0;         /* Fixes the div to the left side */
+  width: 20vw;    /* Set your desired fixed width */
+  height: 100vh;
+  display: block;
+}
+}
+@media  only screen and (max-width : 750px){
+   .rsidebar{
+      position: fixed; /* Fixes the div relative to the viewport */
+  top: 0;          /* Aligns the div to the top */
+  right: 0;         /* Fixes the div to the left side */
+  width: 100vw;    /* Set your desired fixed width */
+  height: 100vh;
+}
+.sidebar{
+      position: fixed; /* Fixes the div relative to the viewport */
+  top: 0;          /* Aligns the div to the top */
+  left: 0;         /* Fixes the div to the left side */
+  width: 130px;    /* Set your desired fixed width */
+  height: 100vh;
+  display: block;
+}
+}

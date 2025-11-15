@@ -1,0 +1,80 @@
+.nav{
+    background-color: #121212;
+    border-bottom: 1px solid #E0E0E0;
+    border-top:1px solid #E0E0E0 ;
+    display: flex;
+    justify-content: space-around;
+    color: #E0E0E0;
+    position: relative;
+    
+
+
+}
+.righto{
+    display: flex;
+    
+  
+}
+  .lefto{
+        display : flex;
+        align-content: center;
+        align-items: center;
+       
+    }
+@media  only screen and (min-width : 750px){
+.nav{margin-right: 2px;
+    margin-left: 2px;
+    height: 79px;
+    border-radius: 9px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.kkrlogo{
+height: 75px;
+margin-top: 2px;
+margin-bottom: 2px;
+
+}
+.camlo{
+    height: 75px;
+margin-top: 2px;
+margin-bottom: 2px;
+}
+.lefto{gap: 35px;}
+}
+.menucard{
+      height: 75px;
+margin-top: 2px;
+margin-bottom: 2px;
+position: relative;
+left : 2px;
+}
+@media only screen and (max-width:750px )  {
+    .nav{
+        height: 50px;
+margin-right: 2px;
+    margin-left: 2px;
+     border-radius: 9px;
+    }
+
+    .kkrlogo{
+        height: 46px;
+        margin-top: 2px;
+margin-bottom: 2px;
+
+    }
+    .camlo{
+           height: 46px;
+        margin-top: 2px;
+margin-bottom: 2px;
+    }
+    .lefto{
+        gap: 25px;
+    }
+    .menucard{
+      height: 36px;
+margin-top: 2px;
+margin-bottom: 2px;
+
+}
+}
