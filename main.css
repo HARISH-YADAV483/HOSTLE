@@ -18,7 +18,7 @@ body{
   left: 0;         /* Fixes the div to the left side */
   width: 20vw;    /* Set your desired fixed width */
   height: 100vh;
-  display: block;
+  display: none;
 }
 }
 @media  only screen and (max-width : 750px){
@@ -35,6 +35,6 @@ body{
   left: 0;         /* Fixes the div to the left side */
   width: 130px;    /* Set your desired fixed width */
   height: 100vh;
-  display: block;
+  display: none;
 }
 }
