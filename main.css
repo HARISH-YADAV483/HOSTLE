@@ -30,5 +30,6 @@ a{
   width: 130px;    /* Set your desired fixed width */
   height: 100vh;
   display: none;
+  background-color: #04020e;
 }
 }
