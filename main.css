@@ -27,9 +27,10 @@ a{
       position: fixed; /* Fixes the div relative to the viewport */
   top: 0;          /* Aligns the div to the top */
   left: 0;         /* Fixes the div to the left side */
-  width: 130px;    /* Set your desired fixed width */
+  width: 198px;    /* Set your desired fixed width */
   height: 100vh;
   display: none;
   background-color: #04020e;
+  margin-top: 90px;
 }
 }

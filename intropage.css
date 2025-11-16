@@ -22,10 +22,12 @@ color: rgb(246, 241, 221);
 }
 .paruu{
     color: rgb(246, 241, 221);
-    margin-right: 4vw;
-    margin-left: 4vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    width: 90vw;
     font-size: 19px;
-    text-align: center;
+     font-family: 'Baloo Bhai', sans-serif;
+   
 }}
 @media only screen and (max-width:750px) and (min-width :450px ){
 .hedooofhostle{
@@ -54,8 +56,10 @@ color: rgb(246, 241, 221);
     color: rgb(246, 241, 221);
     margin-right: 2px;
     margin-left: 2px;
-    font-size: 19px;
+    font-size: 14px;
     text-align: center;
+     font-family: 'Baloo Bhai', sans-serif;
+     font-weight: 50;
 }}
 @media only screen and (max-width:450px) {
     .hedooofhostle{
@@ -84,6 +88,8 @@ color: rgb(246, 241, 221);
     color: rgb(246, 241, 221);
     margin-right: 2px;
     margin-left: 2px;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
+     font-family: 'Baloo Bhai', sans-serif;
+     font-weight: normal;
 }}
