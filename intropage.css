@@ -1,3 +1,7 @@
+.itemii{
+    display: flex;
+   justify-content: space-between;
+}
 @media only screen and (min-width:750px )  {
 .hedooofhostle{
 color: rgb(246, 241, 221);
@@ -28,12 +32,36 @@ color: rgb(246, 241, 221);
     font-size: 19px;
      font-family: 'Baloo Bhai', sans-serif;
    
+}
+.itemii{
+     color: rgb(246, 241, 221);
+    margin-right: 5vw;
+    margin-left: 5vw;
+    width: 90vw;
+    font-size: 19px;
+    margin-top: 15px;
+     font-weight: lighter;
+}
+
+.faqcontainer{
+     color: rgb(246, 241, 221);
+     font-size: 24px ;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 5vw;
+     margin-top: 15px;
 }}
 @media only screen and (max-width:750px) and (min-width :450px ){
 .hedooofhostle{
 color: rgb(246, 241, 221);
  text-align: center; font-family: cursive; text-decoration: underline; margin-top: 34px;
  font-size: 15px;
+}
+.faqcontainer{
+     color: rgb(246, 241, 221);
+     font-size: 17px ;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-left: 9vw;
+margin-top: 15px;
 }
 
 .imgoluu{
@@ -52,11 +80,20 @@ color: rgb(246, 241, 221);
     margin-top: 15px;
     margin-bottom: 30px;
 }
+.itemii{
+     color: rgb(246, 241, 221);
+    margin-right: 5vw;
+    margin-left: 5vw;
+    width: 90vw;
+    font-size: 17px;
+    margin-top: 15px;
+     font-weight: lighter;
+}
 .paruu{
     color: rgb(246, 241, 221);
     margin-right: 2px;
     margin-left: 2px;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
      font-family: 'Baloo Bhai', sans-serif;
      font-weight: 50;
@@ -67,6 +104,14 @@ color: rgb(246, 241, 221);
  text-align: center; font-family: cursive; text-decoration: underline; margin-top: 34px;
  font-size: 12px;
 }
+.faqcontainer{
+     color: rgb(246, 241, 221);
+     font-size: 15px ;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 14vw;
+     margin-left: 9vw;
+margin-top: 15px;
+}
 
 .imgoluu{
 
@@ -84,11 +129,20 @@ color: rgb(246, 241, 221);
     margin-top: 15px;
     margin-bottom: 30px;
 }
+.itemii{
+     color: rgb(246, 241, 221);
+    margin-right: 5vw;
+    margin-left: 5vw;
+    width: 90vw;
+    font-size: 16px;
+    margin-top: 15px;
+     font-weight: lighter;
+}
 .paruu{
     color: rgb(246, 241, 221);
     margin-right: 2px;
     margin-left: 2px;
-    font-size: 14px;
+    font-size: 10px;
     text-align: center;
      font-family: 'Baloo Bhai', sans-serif;
      font-weight: normal;
