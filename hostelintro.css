@@ -1,0 +1,46 @@
+@media only screen and (max-width:1140px) {
+    .imagecontainer{
+        display: flex;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        flex-wrap: wrap;
+        margin-top: 34px;
+    }
+    .imgbox{
+        width: 41vw;
+        height: auto;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .roomimage{
+         width: 41vw;
+        height: auto;
+          margin-left: 0vw;
+        margin-right: 0vw;
+        margin-bottom: 23px;
+    }
+}
+@media only screen and (min-width:1140px) {
+    .imagecontainer{
+        display: flex;
+        width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        margin-top: 34px;
+    }
+    .imgbox{
+        width: 530px;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .roomimage{
+         width: 530px;
+        height: auto;
+          margin-left: 0vw;
+        margin-right: 0vw;
+        margin-bottom: 23px;
+    }
+}
