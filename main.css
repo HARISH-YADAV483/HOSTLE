@@ -19,6 +19,7 @@ a{
   width: 20vw;    /* Set your desired fixed width */
   height: 100vh;
   display: none;
+  margin-top: 105px;
 }
 }
 @media  only screen and (max-width : 750px){
