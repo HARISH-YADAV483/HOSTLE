@@ -1,15 +1,14 @@
 //timing of hostle
 const arrow = document.getElementById('foli');
- const div = document.getElementById('pokemon');
-   const text = "There are no strict rule of timings of the hostle gates. Students can go to library during any time interval of the day. But the offficiall timing of the main gate is about 10:00 pm";
-    arrow.addEventListener('click', function() {
-   
-    if (div.textContent === "") {
-      div.textContent = text;
-    } else {
-      div.textContent = "";
-    }
-  });
+const pokemonDiv = document.getElementById('pokemon');
+const text = "There are no strict rule of timings of the hostle gates. Students can go to library during any time interval of the day. But the offficiall timing of the main gate is about 10:00 pm";
+arrow.addEventListener('click', function() {
+  if (pokemonDiv.textContent === "") {
+    pokemonDiv.textContent = text;
+  } else {
+    pokemonDiv.textContent = "";
+  }
+});
   //parking of hostle
 const arro = document.getElementById('yuki');
  const divi = document.getElementById('pokemono');

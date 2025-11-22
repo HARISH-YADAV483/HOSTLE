@@ -1,11 +1,11 @@
 
- const img = document.getElementById('toggleImage');
-  const div = document.getElementById('toggleDiv');
+const img = document.getElementById('toggleImage');
+const sidebarDiv = document.getElementById('toggleDiv');
 
-  img.onclick = function() {
-    if (div.style.display === 'none' || div.style.display === '') {
-      div.style.display = 'block';  
-    } else {
-      div.style.display = 'none';   
-    }
-  };
+img.onclick = function() {
+  if (sidebarDiv.style.display === 'none' || sidebarDiv.style.display === '') {
+    sidebarDiv.style.display = 'block';
+  } else {
+    sidebarDiv.style.display = 'none';
+  }
+};
