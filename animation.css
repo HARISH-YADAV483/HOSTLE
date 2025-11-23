@@ -1,0 +1,26 @@
+@keyframes jaduu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav{
+  animation-name: jaduu;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.1; }
+}
+
+.menucard{
+  animation: flash 1s ease-in-out;
+  animation-delay: 4s;
+animation-iteration-count: 1;
+}
