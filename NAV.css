@@ -8,8 +8,7 @@
     display: flex;
     justify-content: space-around;
     color: #E0E0E0;
-    position: sticky;
-    top: 0px;
+  
     margin-top: 0px;
           transition: top 2s ease;
     
