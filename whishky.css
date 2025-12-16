@@ -1,0 +1,77 @@
+
+.whisky{
+    display : none;
+background-color: #04020e;
+width : 99vw;
+margin-left: 0.5vw;
+margin-right: 0.5vw;
+border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border-bottom-left-radius: 9px;
+     border-bottom-right-radius: 9px;
+ 
+     justify-content: space-around;
+}
+@media  only screen and (min-width : 750px){
+.whisky{
+    display: none;
+    height : 234px;
+    border-bottom: 1px solid white;
+   
+ 
+   border-top: 0px;
+   
+}
+  
+    .items{
+        height: 58px;
+        color: #f9f8f7;
+        border-bottom: 1px solid #fcf6e2;
+        border-radius: 5px;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        text-align: center;
+        width: 276px;
+       
+        
+
+    }
+    .logos{
+        height: 44px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+}
+
+@media  only screen and (max-width : 750px){
+.whisky{
+    height : 110px;
+     border-bottom: .5px solid white;
+     
+font-size: small;
+ display: none;
+       border-top: 0px;
+       
+
+}
+  
+    .items{
+        height: 27px;
+        color: #f9f8f7;
+        border-bottom: 1px solid #fcf6e2;
+        border-radius: 5px;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        text-align: center;
+        
+
+    }
+    .logos{
+        height: 23px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+}
