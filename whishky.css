@@ -46,7 +46,7 @@ border-top-left-radius: 0px;
 
 @media  only screen and (max-width : 750px){
 .whisky{
-    height : 110px;
+    height : 150px;
      border-bottom: .5px solid white;
      
 font-size: small;
@@ -57,7 +57,7 @@ font-size: small;
 }
   
     .items{
-        height: 27px;
+        height: 37px;
         color: #f9f8f7;
         border-bottom: 1px solid #fcf6e2;
         border-radius: 5px;
@@ -69,7 +69,7 @@ font-size: small;
 
     }
     .logos{
-        height: 23px;
+        height: 33px;
         margin-top: 2px;
         margin-bottom: 2px;
     }
